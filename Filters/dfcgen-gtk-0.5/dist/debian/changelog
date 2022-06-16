@@ -1,0 +1,46 @@
+dfcgen-gtk (0.5-1) unstable; urgency=medium
+
+  * Support double click on coefficients list
+  * Give tribute to Julius van Hann, not Hanning
+  * Improve precision of lin. FIR frequency transformations
+  * Fix Hann/Blackman window calculation
+  * Fix cutoff frequency handling on read from project file
+  * Add some semantic checks to frequency transformations
+  * Fix (not visible) grid in response windows
+  * Show response windows in taskbar and pager
+  * Use of C99 array/struct initialization
+  * Fix GDK/GTK+ warnings
+  * Migration of associated Eclipse project to 3.8.1 (Juno)
+  * Migration of Glade project to 3.8.6 (last release supporting GTK+2.0)
+  * Migration from Subversion to Git
+  * Remove Subversion keywords from source files
+  * Get rid of autoreconf warnings
+  * Upgrade to Automake 1.15
+  * Change contact and copyright statement
+  * Sync with Debian release 0.4-3
+
+ -- Ralf Hoppe <ralf.hoppe@dfcgen.de>  Mon, 13 Jan 2020 11:02:04 +0100
+
+dfcgen-gtk (0.4-3) unstable; urgency=medium
+
+  * Install a 64x64 icon to make AppStream happy
+  * Update debian/copyright
+  * Bump Standards-Version to 4.3.0, no changes
+
+ -- Graham Inggs <ginggs@debian.org>  Tue, 05 Feb 2019 08:57:00 +0000
+
+dfcgen-gtk (0.4-2) unstable; urgency=medium
+
+  * Update Vcs-* URIs for move to salsa.debian.org
+  * Increase thickness of unit circle
+  * Switch to debhelper 11
+  * Update debian/copyright
+  * Bump Standards-Version to 4.1.3, no changes
+
+ -- Graham Inggs <ginggs@debian.org>  Sat, 20 Jan 2018 17:30:54 +0000
+
+dfcgen-gtk (0.4-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #842491)
+
+ -- Graham Inggs <ginggs@debian.org>  Sat, 29 Oct 2016 22:24:47 +0200

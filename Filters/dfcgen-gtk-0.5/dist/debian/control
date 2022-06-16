@@ -1,0 +1,23 @@
+# Debian Control File
+# Note: Build a Debian package with 'dpkg-buildpackage -rfakeroot'
+#
+# Copyright (C) 2006, 2011, 2012, 2020 Ralf Hoppe <ralf.hoppe@dfcgen.de>
+#
+Source: dfcgen-gtk
+Section: electronics
+Priority: optional
+Maintainer: Ralf Hoppe <ralf.hoppe@dfcgen.de>
+Build-Depends: debhelper (>= 9), libgsl-dev, libgtk2.0-dev (>= 2.12)
+Standards-Version: 3.9.4
+Homepage: http://www.dfcgen.de
+
+Package: dfcgen-gtk
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Digital Filter Coefficients Generator (DFCGen) GTK+
+ DFCGen, the Digital Filter Coefficients Generator, assists the engineer
+ in the design of digital filters. It supports the engineer in analysis
+ and synthesis of linear time-invariant time-discrete (LTI) systems from
+ the theoretical point of view. It performs generation of system transfer
+ function coefficients in the Z-domain, based on the type and specific
+ parameters of a chosen system.
