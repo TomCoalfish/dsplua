@@ -7,3 +7,4 @@ tiny matlab-like using luajit
 * Gnuplot
 * Eigen
 * Armadillo
+* sndedit
